@@ -9,6 +9,8 @@ def fib(n):
         return 1
     else:
         return fib(n-1) + fib(n-2)
-    
+def say_bye():
+    print("Bye")
 main()
 print(fib(10))
+say_bye()
